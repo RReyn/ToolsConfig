@@ -3,6 +3,7 @@
 cp vimrc ~/.vimrc -f
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle
+cd ~/.vim/
 
 git clone https://github.com/tpope/vim-pathogen
 cp vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
