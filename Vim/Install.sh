@@ -2,6 +2,8 @@
 
 cp vimrc ~/.vimrc -f
 
+cp -f ./colors/*.vim /usr/share/vim/vim[0-9][0-9]/colors/
+
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 cd ~/.vim/
 
@@ -12,5 +14,4 @@ cd ~/.vim/bundle
 git clone git://github.com/scrooloose/nerdtree.git
 git clone git://github.com/vim-airline/vim-airline
 git clone git://github.com/altercation/vim-colors-solarized
-
 
